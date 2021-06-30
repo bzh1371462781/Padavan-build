@@ -101,6 +101,6 @@ jobs:
     - name : Upload packages
       uses: actions/upload-artifact@master
       if: always()
-      with:
+      with:   
         name: Padavan-packages
         path: /opt/images   
